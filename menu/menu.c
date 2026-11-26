@@ -44,7 +44,7 @@ int menu() {
 
     switch (opcao) {
         case 1:
-          //  exibirCabecalho();
+         matricula();
             break;
             case 2:
          //   ListaMatriculas();

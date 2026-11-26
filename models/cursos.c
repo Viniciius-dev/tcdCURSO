@@ -1,7 +1,7 @@
 //
 // Created by oproprio on 9/25/26.
 //
-
+/*
 #include "cursos.h"
 
 #include <string.h>
@@ -22,3 +22,9 @@ void inicializar_cursos () {
     tcdcursos.cursos[3] = "Farmacia";
 
 }
+
+const char* tcdcurso_gatName(const struct tcdcurso *curso) {
+    if (curso == NULL) return NULL;
+    return curso->name;
+}
+*/

@@ -5,10 +5,14 @@
 #ifndef TCDCURSO_MENU_H
 #define TCDCURSO_MENU_H
 
-#endif //TCDCURSO_MENU_H
-
 void exibirCabecalho();
 
- int menu();
+int menu();
 
 int lerOpecao();
+int matricula();
+
+
+#endif //TCDCURSO_MENU_H
+
+
